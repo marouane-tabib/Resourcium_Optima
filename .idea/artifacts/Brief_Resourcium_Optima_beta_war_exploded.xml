@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Brief_Resourcium_Optima_beta:war exploded">
+    <output-path>$PROJECT_DIR$/target/Brief_Resourcium_Optima_beta-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>Brief_Resourcium_Optima_beta</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Brief_Resourcium_Optima_beta" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Brief_Resourcium_Optima_beta-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Brief_Resourcium_Optima_beta/web/Web" />
+    </root>
+  </artifact>
+</component>
