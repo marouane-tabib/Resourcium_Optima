@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "tasks", value = "/tasks")
+@WebServlet(name = "departements", value = "/departements")
 public class Departements extends HttpServlet {
     private String message;
     private EntityManagerFactory entityManagerFactory = null;
