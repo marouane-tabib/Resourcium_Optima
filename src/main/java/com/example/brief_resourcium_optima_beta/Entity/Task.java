@@ -27,15 +27,12 @@ public class Task {
     @Column(name = "status")
     private String status;
 
-    public Task(int id, String name, String description, String limit_date, String priority, String employee, String status) {
+    public Task(String name, String description, String limit_date, String priority, String employee, String status) {
         this.name = name;
         this.description = description;
         this.limit_date = limit_date;
         this.priority = priority;
         this.employee = employee;
         this.status = status;
-    }
-    public Task() {
-
     }
 }
