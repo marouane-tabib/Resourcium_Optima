@@ -5,6 +5,8 @@
 Resourcium Optima est un outil qui aide les entreprises à bien gérer leur personnel et leurs équipements.
 Il offre une interface facile à utiliser pour les responsables RH et les superviseurs afin de simplifier la gestion des employés et du matériel.
 
+[Rejoignez ce lien pour afficher la présentation.](https://www.canva.com/design/DAFxIfqTsDU/XP6NL0MtkfALXNmH6olHWA/view?utm_content=DAFxIfqTsDU&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 ## Technologies Utilisées
 
 - **Maven** : C'est un outil qui nous aide à construire et gérer nos projets informatiques plus facilement.
