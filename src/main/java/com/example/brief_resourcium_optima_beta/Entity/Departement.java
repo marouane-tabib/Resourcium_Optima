@@ -2,7 +2,7 @@ package com.example.brief_resourcium_optima_beta.Entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="departement")
+@Table(name="departements")
 public class Departement {
 
     @Id
