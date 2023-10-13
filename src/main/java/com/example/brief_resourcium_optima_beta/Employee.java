@@ -10,8 +10,8 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+@WebServlet(name = "employees", value = "/employees")
+public class Employee extends HttpServlet {
     private String message;
     private EntityManagerFactory entityManagerFactory = null;
     private EntityManager entityManager = null;
