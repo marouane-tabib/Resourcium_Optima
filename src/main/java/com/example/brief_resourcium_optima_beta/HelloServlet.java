@@ -17,7 +17,6 @@ public class HelloServlet extends HttpServlet {
     private EntityManager entityManager = null;
 
     public void init() {
-        message = "Hello World!";
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("default");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         Employe employe = new Employe("maroune", "12345678", "Marouane", "Tabib", "and@gmail.com", 1, "2022-32-44");
