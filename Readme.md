@@ -2,38 +2,33 @@
 
 ## Présentation du Projet
 
-Bienvenue dans le projet Resourcium Optima ! Ce projet vise à améliorer un outil existant conçu pour la gestion des talents et de l'équipement au sein des entreprises. Notre objectif est de rendre cet outil plus efficace et convivial.
+Resourcium Optima est un outil qui aide les entreprises à bien gérer leur personnel et leurs équipements.
+Il offre une interface facile à utiliser pour les responsables RH et les superviseurs afin de simplifier la gestion des employés et du matériel.
 
-Dans le cadre de ce projet, nous allons migrer l'outil vers une architecture moderne appelée Java Enterprise Edition (JEE). Cette transition devrait améliorer les capacités de l'outil et le mettre à jour avec les dernières technologies.
+## Technologies Utilisées
 
-## Rôle du Développeur
+- **Maven** : C'est un outil qui nous aide à construire et gérer nos projets informatiques plus facilement.
 
-Si vous êtes un développeur web affecté à ce projet, vos responsabilités sont cruciales. Vous devrez configurer les outils de développement nécessaires, créer une architecture JEE solide et utiliser des technologies telles que Maven, JAKARTA EE, HIBERNATE, JPA, Servlets et JSP.
+- **JAKARTA EE** : C'est une spécification qui nous permet de créer des applications d'entreprise robustes en utilisant Java.
 
-L'objectif est de simplifier et d'optimiser la gestion des talents et de l'équipement au sein des entreprises. Votre expertise jouera un rôle important dans la réalisation de cet objectif.
+- **Hibernate** : C'est un outil qui simplifie la manière dont nos applications communiquent avec les bases de données.
+
+- **JPA (Java Persistence API)** : C'est une spécification Java qui nous aide à gérer les données de nos applications de manière plus efficace.
+
+- **Servlets** : Ce sont des composants Java qui nous aident à gérer les demandes et générer du contenu web dynamique.
+
+- **JSP (JavaServer Pages)** : C'est une technologie qui nous permet de créer des pages web avec un contenu qui peut changer en fonction des besoins.
 
 ## Pour Commencer
 
 Pour commencer avec le projet, suivez ces étapes :
 
 1. Clonez ce référentiel sur votre environnement de développement local.
+```bash 
+    git clone https://github.com/marouane-tabib/Resourcium_Optima 
+```
 2. Configurez les outils de développement nécessaires, y compris votre IDE (environnement de développement intégré) et le serveur.
 3. Commencez à travailler sur les tâches du projet qui vous sont attribuées.
 
-## Technologies Utilisées
-
-- Java Enterprise Edition (JEE)
-- Maven
-- JAKARTA EE
-- HIBERNATE
-- JPA
-- Servlets
-- JSP
-
-## Questions et Support
-
-Si vous avez des questions ou avez besoin de support, n'hésitez pas à contacter le chef de projet ou l'équipe de développement. Nous sommes là pour vous aider tout au long du projet.
-
-Merci pour votre contribution à l'amélioration de 'Resourcium Optima' !
-
-Bon codage !
+## Author
+**Author**: [Marouane Tabib](https://github.com/marouane-tabib)
