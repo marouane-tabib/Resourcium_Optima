@@ -1,28 +1,29 @@
 package com.example.brief_resourcium_optima_beta;
 
-import java.io.*;
 
-import com.example.brief_resourcium_optima_beta.Entity.Employe;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
-
+import com.example.brief_resourcium_optima_beta.Entity.Equipement;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+import java.io.IOException;
+
+@WebServlet(name = "equipements", value = "/equipemnet")
+public class Equipements extends HttpServlet {
     private String message;
     private EntityManagerFactory entityManagerFactory = null;
     private EntityManager entityManager = null;
 
     public void init() {
-        message = "Hello World!";
         EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("default");
         EntityManager entityManager = entityManagerFactory.createEntityManager();
-        Employe employe = new Employe("maroune", "12345678", "Marouane", "Tabib", "and@gmail.com", 1, "2022-32-44");
+        Equipement equipement = new Equipement("Tool 1", "Type", "20.0/22/22", "20.0/34/32");
         entityManager.getTransaction().begin();
-        entityManager.persist(employe);
+        entityManager.persist(equipement);
         entityManager.getTransaction().commit();
         entityManager.close();
         entityManagerFactory.close();
