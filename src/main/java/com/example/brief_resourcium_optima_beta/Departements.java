@@ -6,6 +6,7 @@ import com.example.brief_resourcium_optima_beta.Entity.Task;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -30,8 +31,8 @@ public class Departements extends HttpServlet {
         entityManagerFactory.close();
     }
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        request.getRequestDispatcher("login.jsp").forward(request, response);
     }
 
     public void destroy() {
